@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #cfe7ff;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c7be5;
+}
+
+.card {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.link-btn {
+  color: white;
+  background: #ff0000;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Phone section */
+.phones {
+  display: flex;
+  gap: 200px;
+  flex-wrap: wrap;
+}
+
+.phone-card {
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  background: #f1f1f1;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.phone-card:hover {
+  background: #2c7be5;
+  color: white;
+  transform: scale(1.05);
+}
+
+.phone-card img {
+  width: 80px;
+  height: 100px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.edit {
+  background: orange;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 4px;
+}
+
+.delete {
+  background: red;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 4px;
+}
+
+/* Image */
+.hover-img {
+  width: 250px;
+  border-radius: 10px;
+}

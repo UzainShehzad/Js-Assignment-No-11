@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Events Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Events | JavaScript | Assignment No 11</h1>
+
+
+    <section class="card">
+        <h2>1. Alert on Link Click</h2>
+        <a href="#" class="link-btn" onclick="showAlert()">Click this link</a>
+    </section>
+
+
+
+    <section class="card">
+        <h2>2. Mobile Phone Lookup</h2>
+        <div class="phones">
+            <div class="phone-card" onclick="phoneMsg('iPhone')">
+                <img src="https://mercantile-pk.s3.ap-southeast-1.amazonaws.com/uploads/products1758274707_iPhone-17-Pro-%28300x300%29.png"
+                    alt="iPhone">
+                <p>iPhone</p>
+            </div>
+
+            <div class="phone-card" onclick="phoneMsg('Samsung')">
+                <img src="https://inovi.pk/wp-content/uploads/2023/11/Samsung-S22-ultra-600x600.jpg" alt="Samsung">
+                <p>Samsung</p>
+            </div>
+
+            <div class="phone-card" onclick="phoneMsg('Vivo')">
+                <img src="https://alltech.pk/wp-content/uploads/2024/11/Vivo-Y19s-Pearl-White.jpg" alt="Vivo">
+                <p>Vivo</p>
+            </div>
+
+            <div class="phone-card" onclick="phoneMsg('Huawei')">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtk_5RfJcftZGK6Hx2FdYchgMpUdz2pbNVbg&s"
+                    alt="Huawei">
+                <p>Huawei</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="card">
+        <h2>3. Student Records</h2>
+
+        <table>
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Action</th>
+            </tr>
+
+            <tr>
+                <td>0</td>
+                <td>Jhone</td>
+                <td>10</td>
+                <td>
+                    <button class="edit" onclick="editRow()">Edit</button>
+                    <button class="delete" onclick="deleteRow(this)">Delete</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Doe</td>
+                <td>9</td>
+                <td>
+                    <button class="edit" onclick="editRow()">Edit</button>
+                    <button class="delete" onclick="deleteRow(this)">Delete</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Mark</td>
+                <td>10</td>
+                <td>
+                    <button class="edit" onclick="editRow()">Edit</button>
+                    <button class="delete" onclick="deleteRow(this)">Delete</button>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+
+
+
+    <section class="card">
+        <h2>4. Image Mouse Events</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1280px-Unofficial_JavaScript_logo_2.svg.png"
+            id="jsImg" onmouseover="changeImg()" onmouseout="resetImg()" style="width:250px; cursor:pointer;">
+
+    </section>
+
+
+
+    <section class="card">
+        <h2>5. Counter</h2>
+        <h3>Counter: <span id="count">0</span></h3>
+        <button onclick="increase()">+</button>
+        <button onclick="decrease()">−</button>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
