@@ -26,7 +26,7 @@ h1 {
   text-decoration: none;
 }
 
-/* Phone section */
+
 .phones {
   display: flex;
   gap: 200px;
@@ -54,7 +54,6 @@ h1 {
   height: 100px;
 }
 
-/* Table */
 table {
   width: 100%;
   border-collapse: collapse;

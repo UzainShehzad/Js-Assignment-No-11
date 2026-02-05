@@ -1,14 +1,16 @@
-// Q1
+
 function showAlert() {
   alert("You clicked the link!");
 }
 
-// Q2
+
+
 function phoneMsg(name) {
   alert("Thanks for purchasing " + name);
 }
 
-// Q3
+
+
 function deleteRow(btn) {
   btn.parentNode.parentNode.remove();
 }
@@ -29,7 +31,8 @@ function resetImg() {
 }
 
 
-// Q5
+
+
 let counter = 0;
 
 function increase() {
